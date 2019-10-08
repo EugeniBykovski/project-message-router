@@ -1,9 +1,9 @@
 Project Message router
-Если один узел хочет пообзаться с другим узлом, то лавинная маршрутизация - не эффективный подход.
-Особенно, если сеть обширная - этот приводит к большому колличеству бесполезных операций по передаче данных.
+If one node wants to compete with another node, then avalanche routing is not an efficient approach.
+Especially if the network is extensive - this leads to a large number of useless data transfer operations.
 
-Альтернатива - способ передачи сообщений от узла к узлу, пока оно не достигнет пункта назначения!
+An alternative is a way to send messages from node to node until it reaches its destination!
 
-Функция ищет способ достичь определенного узла сети. Но вместо того, чтобы возвращать весь маршрут,
-она возвращает только следующий шаг. Следующее гнездо само, используя свою текущую информацию в сети, решит,
-куда дальше отправлять сообщение.
+The function is looking for a way to reach a specific host. But instead of returning the entire route,
+she returns only the next step. The next socket itself, using its current information on the network, will decide
+where to send the message further.
